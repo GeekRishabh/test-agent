@@ -1,4 +1,4 @@
-name: "JFrog Integration"
+name: "JFrog Integration Example"
 on: push
 
 jobs:
@@ -19,7 +19,7 @@ jobs:
          uses: actions/setup-node@v3
            
        - name: Set CLI Config
-         run: jf npm-config --global=true --repo-resolve=test-agent-npm --repo-deploy=test-agent-npm
+         run: jf npm-config --global=true --repo-resolve=test-agent1-npm --repo-deploy=test-agent1-npm
            
        - name: Install Deps
          run: jf npm install
