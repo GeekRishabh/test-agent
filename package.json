@@ -1,0 +1,19 @@
+{
+  "name": "test-agnet-1",
+  "version": "2.0.1",
+  "description": "test",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "publishConfig": {
+    "registry": "https://wekanenterprisesolutions.jfrog.io/artifactory/api/npm/peaf-test-agent/"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dayjs": "^1.11.11",
+    "lodash": "^4.17.21"
+  }
+}
