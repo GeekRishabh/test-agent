@@ -1,11 +1,9 @@
 {
   "name": "test-agnet1",
-  "version": "0.0.1",
+  "version": "0.0.3",
   "description": "test 1111",
   "main": "index.js",
-  "publishConfig": {
-    "registry": "https://wekanenterprisesolutions.jfrog.io/artifactory/api/npm/peaf-test-agent/"
-  },
+  "publishConfig":{"registry":"https://wekanenterprisesolutions.jfrog.io/artifactory/api/npm/test-agent1-npm/"},
   "keywords": [],
   "author": "",
   "license": "ISC",
